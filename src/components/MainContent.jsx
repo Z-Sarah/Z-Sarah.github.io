@@ -1,10 +1,12 @@
 import React from "react";
+import styles from "../css/MainContent.module.css";
+
 
 function MainContent () {
     return (
-     <div>
+     <div className={styles.main}>
          <input type="checkbox"/>
-         <p>1</p>
+         <p style={{fontSize: "80px"}}>1</p>
          <input type="checkbox"/>
          <p>2</p>
          <input type="checkbox"/>
