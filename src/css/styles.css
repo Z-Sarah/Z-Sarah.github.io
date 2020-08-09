@@ -1,9 +1,77 @@
-body {
-  font-family: "Roboto, Arial, sans-serif;"
+.body {
+  font-family: Raleway;
+  font-size: 16px;
+  background-attachment: scroll;
 }
 
-.MainContent {
-  background-image: url("../img/background1.jpg");
+.intro {
+  font-size: 45px;
+  width: 1900px;
+  height: 900px;
+
+}
+
+.main {
+  width: 1900px;
+  height: 924px;
+  background: red;
+  text-align: center;
+}
+
+.flex {
+  width: 600px;
+  height: 221px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 24px;
+  text-align: center;
+}
+
+.text {
+
+}
+.sidenav {
+  background-color: gray;
+  background-origin: padding-box;
+  background-size: auto;
+  width: 2500px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom-color: rgb(4, 194, 201);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  position: absolute;
+}
+
+.link-wrap {
+
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0%;
+  background-size: auto;
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  overflow: visible;
+  position: static;
+  text-align: left;
+  top: 53px;
+  width: 1200px;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: height;
+  transition-timing-function: ease-out;
+}
+
+.about {
+  background-attachment: scroll;
 }
 
 @media screen and (max-height: 450px) {

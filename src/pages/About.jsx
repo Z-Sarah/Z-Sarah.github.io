@@ -1,16 +1,13 @@
 import React from 'react';
-import StickyBar from "../components/StickyBar";
+import "../css/styles.css";
+import Intro from "../components/Intro";
 
 const About = () => {
     return (
-        <div>
-            <StickyBar/>
-            <p>This is about</p>
-        </div>
+        <section id="about">
+            <Intro/>
+        </section>
     )
 }
-
-
-
 
 export default About

@@ -1,14 +1,15 @@
 import React from 'react';
-import StickyBar from "../components/StickyBar";
-import MainContent from "../components/MainContent";
-
+import Main from "../components/Main";
+import Sidenav from "../components/Sidenav";
+import About from "./About";
 
 const Home = () => {
     return (
-        <div>
-            <StickyBar/>
-            <MainContent />
-        </div>
+        <section id="home">
+            <Main/>
+            <Sidenav/>
+            <About/>
+        </section>
     )
 }
 
