@@ -1,14 +1,11 @@
 import React from 'react';
-import Main from "../components/Main";
-import Sidenav from "../components/Sidenav";
-import About from "./About";
+import Welcome from "../components/Welcome";
 
 const Home = () => {
+
     return (
         <section id="home">
-            <Main/>
-            <Sidenav/>
-            <About/>
+            <Welcome/>
         </section>
     )
 }

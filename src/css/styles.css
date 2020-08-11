@@ -1,79 +1,84 @@
-.body {
-  font-family: Raleway;
-  font-size: 16px;
-  background-attachment: scroll;
-}
-
-.intro {
-  font-size: 45px;
-  width: 1900px;
-  height: 900px;
-
-}
-
-.main {
-  width: 1900px;
+/*
+welcome page styles
+ */
+.welcome {
+  width: 1885px;
   height: 924px;
-  background: red;
   text-align: center;
+  background-color: green;
+  display: flex;
+  justify-content: center;
 }
-
 .flex {
-  width: 600px;
-  height: 221px;
-  color: rgb(255, 255, 255);
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  line-height: 24px;
-  text-align: center;
 }
-
 .text {
+  pointer-events: none;
+  text-align: center;
+  background-color: darkblue;
+  margin-bottom: 20px;
+  display: block;
+}
+.myname {
+  font-size: 32px;
+  pointer-events: none;
+}
+.pagebotton {
+  font-size: 21px;
+  display: block;
+  box-sizing: content-box;
+  border: 2px;
+  padding: 12px 50px 12px 20px;
+  margin-bottom: 53px;
+  background-color: red;
+  align-items: center;
+  text-align: center;
 
 }
-.sidenav {
+.navbar {
   background-color: gray;
   background-origin: padding-box;
   background-size: auto;
-  width: 2500px;
+  width: auto;
   height: 50px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-end;
+  flex-flow: column wrap;
   border-bottom-color: rgb(4, 194, 201);
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  position: absolute;
 }
-
 .link-wrap {
-
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
   background-origin: padding-box;
-  background-position: 0%;
   background-size: auto;
   display: block;
   height: 24px;
-  line-height: 24px;
   overflow: visible;
   position: static;
   text-align: left;
-  top: 53px;
-  width: 1200px;
+  top: 50px;
+  width: 1905px;
+  left: 0;
   transition-delay: 0s;
   transition-duration: 0.3s;
   transition-property: height;
   transition-timing-function: ease-out;
 }
 
-.about {
+/*
+About page styles
+ */
+.yes {
   background-attachment: scroll;
+  width: 1900px;
+  height: 450px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 475px) {
 
 }

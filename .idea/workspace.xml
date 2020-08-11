@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e082b784-3726-4f5b-b951-6b45355ae18e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Intro.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidenav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Welcome.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/useSticky.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StickyBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/MainContent.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidenav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
@@ -95,15 +94,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596556554542">
+    <state x="533" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597083632035">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state x="533" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1600.877/-1920.23.1920.1057@0.23.1600.877" timestamp="1596556554542" />
-    <state x="582" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596813853919">
+    <state x="533" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1600.877/-1920.23.1920.1057@0.23.1600.877" timestamp="1597083632035" />
+    <state x="582" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597093694094">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="-1222" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1600.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1596036663214" />
-    <state x="582" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1600.877/-1920.23.1920.1057@0.23.1600.877" timestamp="1596813853919" />
+    <state x="582" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1600.877/-1920.23.1920.1057@0.23.1600.877" timestamp="1597093694094" />
     <state x="465" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1596556506519">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
